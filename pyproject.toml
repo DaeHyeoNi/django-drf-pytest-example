@@ -1,0 +1,15 @@
+[project]
+name = "django-drf-pytest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "black>=25.1.0",
+    "django>=5.2",
+    "djangorestframework>=3.16.0",
+    "isort>=6.0.1",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.1.1",
+    "pytest-django>=4.11.1",
+]
